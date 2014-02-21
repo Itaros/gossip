@@ -33,7 +33,8 @@ To open the Game Browser:
     GameBrowser open.
     
 To exit you can use the menu, or close either
-the Transcript or the game window.' ].
+the Transcript or the game window.
+' ].
     ^ contents
 !
 EVAL Transcript reset
