@@ -17,6 +17,12 @@ fileInWithNotification: aFileName
 EVAL File fileInWithNotification: 'gossip/Extensions.st'
 EVAL System println: 'Finished loading class extensions'
 
+// Load the new windowing classes
+EVAL File fileInWithNotification: 'gossip/NewPane.st'
+EVAL File fileInWithNotification: 'gossip/NewWindow.st'
+
+// Load the new tools
+EVAL File fileInWithNotification: 'gossip/Inspector.st'
 
 // This little hack allows us to refer to GameRegistry class even when its
 // methods can't be defined yet, because they reference all the other classes
@@ -46,13 +52,22 @@ EVAL System println: 'Finished loading authoring tools'
 // Then start the thing up
 EVAL System println: 'Setting things up'
 
+<<<<<<< HEAD
 EVAL SetupRooms setup
 //EVAL SetupRooms setupExample
 
 EVAL System println: 'Starting things up'
 EVAL SetupRooms start
 //EVAL SetupRooms startExample
+=======
+//EVAL SetupRooms setupExample
+EVAL SetupRooms setup
 
-EVAL System println: 'Opening Transcript up'
+EVAL System println: 'Starting things up'
+//EVAL SetupRooms startExample
+EVAL SetupRooms start
+>>>>>>> Initial commit of the work on new tools
+
+EVAL System println: 'Opening Transcript'
 EVAL Transcript open
 
