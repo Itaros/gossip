@@ -10,3 +10,5 @@ svg-assets/
 .Trashes
 ehthumbs.db
 Thumbs.db
+/escape-game-android/gen/net/raydeejay/escapegame/BuildConfig.java
+/escape-game-android/gen/net/raydeejay/escapegame/R.java
