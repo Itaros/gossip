@@ -52,27 +52,12 @@ EVAL System println: 'Finished loading authoring tools'
 // Then start the thing up
 EVAL System println: 'Setting things up'
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 EVAL SetupRooms setup
 //EVAL SetupRooms setupExample
 
 EVAL System println: 'Starting things up'
 EVAL SetupRooms start
 //EVAL SetupRooms startExample
-=======
-=======
->>>>>>> 0b49e5c48b326d78dc5121f196e14f0defd470ea
-//EVAL SetupRooms setupExample
-EVAL SetupRooms setup
-
-EVAL System println: 'Starting things up'
-//EVAL SetupRooms startExample
-EVAL SetupRooms start
-<<<<<<< HEAD
->>>>>>> Initial commit of the work on new tools
-=======
->>>>>>> 0b49e5c48b326d78dc5121f196e14f0defd470ea
 
 EVAL System println: 'Opening Transcript'
 EVAL Transcript open
